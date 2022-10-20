@@ -1,0 +1,146 @@
+
+body {
+    background-color: #EFE3B8;
+  }
+  
+h1 {
+    color: #735229;
+    margin-left: 20px;
+    font-style: bold;
+    font-size: 50px;
+  }
+
+  /* --------- menu ------- */
+  .header_box{
+    height: auto;
+    width: 100%;
+    background-size: 20%;
+    margin-left:0%;
+    margin-right: 0%;
+    min-height: 200px;  
+    margin-bottom: 1%;
+  }
+
+
+  .menu {
+    float: right;
+  }
+  .menu ul {
+    list-style: none;
+    margin: 8px;
+    padding: 0
+  }
+  .menu li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  .menu a {
+    text-decoration: none;
+    color: #735229;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Lato';
+  }
+  .menu a:hover {
+    text-decoration: underline;
+  }
+
+  section {
+    padding: 100px;
+  }
+  section#about img {
+    float: center;
+  }
+  section#about .content {
+    margin-left: 15%;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+/* -------- fotomedkvinde ----- */
+.kvindemedbog {
+    right: 100%;
+    width: 100px;
+    margin-top: -20%;
+    margin-top: 100%;
+    padding: -10%;
+}
+
+.lines {
+    margin-bottom: -100%;
+    width: 80%;
+    margin-left: -20%;
+    padding: -10%;
+
+}
+/* ------ tekst ------ */
+
+.content {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #735229;
+    margin-bottom: -20%;
+    padding: -20%;
+
+}
+
+
+  .column {
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    width: 20%;
+    padding: 25px;
+    margin: 20px;
+    margin-top: 5%;
+    margin-left: 6%;
+    color: #1b1612;
+    margin-bottom: 3%;
+  }
+  
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content:"";
+    clear: both;
+    display: table;
+    color: #734226;
+    margin-top: -300%;
+    padding: 15%;
+    border: 20px;
+   
+  }
+
+  .row {
+    margin-top: 20%;
+    color: #734226;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: -20%;  
+}
+
+.page_footer {
+margin-top: 30%;
+float: left;
+background-color: #734226;
+width:calc(100%);
+margin-bottom: -100%;
+font-size: x-large;
+border: -20%;
+
+}
+
+.some_image {
+    width: 70px ;
+    float: center;
+    margin-right: 15%;
+    margin-top: -15%;
+    margin-bottom: -15%;
+   margin-left: -13%;
+
+    
+
+}
